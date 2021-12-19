@@ -1,0 +1,143 @@
+.footer {
+  background: var(--secondary-gray-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  & .logo {
+    display: block;
+    // margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--text-white-color);
+  }
+  & li {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--text-white-color);
+  }
+}
+// куди це перенести?
+.link:focus,
+.link:hover {
+  color: var(--button-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: transform;
+}
+
+// .footer__addres-link {
+//   margin-bottom: 9px;
+// }
+.footer__link {
+  color: var(--footer-text-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: transform;
+  }
+}
+
+.footer__connect-title {
+  @include font(700, 16px, 1.16, 0.03em);
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.16;
+  // letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-white-color);
+  // margin-bottom: 20px;
+}
+
+.footer__social-list {
+  // display: flex;
+  justify-content: center;
+}
+.footer__social-item {
+  width: 44px;
+  height: 44px;
+  // & + & {
+  //   margin-left: 10px;
+  // }
+}
+
+.footer__social-link {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  &:hover,
+  &:focus {
+    background-color: var(--Web-span-text);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: transform;
+  }
+}
+
+.footer__social-icon {
+  fill: currentColor;
+}
+
+.footer__container {
+  // display: flex;
+  align-items: center;
+}
+
+.footer__connect {
+  display: block;
+  justify-content: center;
+  // margin-left: 70px;
+}
+.footer__subscription {
+  padding-left: 93px;
+}
+.footer__subscription-text {
+  @include font(700, 14px, 1.14, 0.03em);
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+.subscription-flex {
+  // display: flex;
+}
+.footer__subscription-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  // margin-right: 12px;
+  padding-left: 15px;
+
+  outline: none;
+}
+
+.subscription-btn {
+  width: 200px;
+  height: 50px;
+  @include font(700, 16px, 1.87, 0.06em);
+  // font-weight: 700;
+  // font-size: 16px;
+  // line-height: 1.87;
+  // letter-spacing: 0.06em;
+  padding: 10px 62px 10px 29px;
+  color: #ffffff;
+  position: relative;
+}
+.subscription-icon {
+  position: absolute;
+  right: 18px;
+  top: 13px;
+  fill: var(--praymary-white-color);
+}

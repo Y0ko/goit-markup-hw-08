@@ -1,0 +1,21 @@
+.button {
+  padding: 10px 32px;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  border-radius: 4px;
+
+  font-weight: 700;
+  line-height: 1;
+  background: var(--button-color);
+  color: var(--praymary-white-color);
+  border: 0;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+    color: var(--text-white-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: transform;
+  }
+}
