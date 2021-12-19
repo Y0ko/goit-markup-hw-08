@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,KAAK,AAAC,CACJ,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,MAAM,CACzB,AAJD,AAAA,KAAK,AAAC,CACJ,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,MAAM,CACzB,AAJD,AAAA,KAAK,AAAC,CACJ,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,MAAM,CACzB,AAJD,AAAA,KAAK,AAAC,CACJ,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,MAAM,CACzB,AAJD,AAAA,KAAK,AAAC,CACJ,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,MAAM,CACzB,AAJD,AAAA,KAAK,AAAC,CACJ,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,MAAM,CACzB",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/base/_body.scss",
+        "../sass/base/_body.scss",
+        "../sass/base/_body.scss",
+        "../sass/base/_body.scss",
+        "../sass/base/_body.scss",
+        "../sass/base/_body.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
