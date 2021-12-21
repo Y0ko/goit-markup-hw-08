@@ -7,20 +7,21 @@
   background: var(--secondary-gray-color);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/Header_img.jpg);
-  // padding: 20px 0px;
-  width: 480px;
-  align-items: center;
-  justify-content: center;
-
+  padding: 118px 20px;
+  width: 320px;
+  // align-items: center;
+  // justify-content: center;
   height: 400px;
-  background-repeat: no-repeat;
+}
+.primary {
+  margin-top: 30px;
 }
 .hero__title {
   // max-width: 320px;
   // margin: 0 auto;
   // margin-bottom: 30px;
 
-  @include font(900, 44px, 1.36, 0.06em);
+  @include font(900, 26px, 1.6, 0.06em);
   // font-weight: 900;
   // font-size: 44px;
   // line-height: 1.36;

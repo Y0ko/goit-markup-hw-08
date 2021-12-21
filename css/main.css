@@ -46,8 +46,7 @@ ul {
 }
 
 img {
-  width: 100vw;
-  height: 100vh;
+  height: auto;
   height: auto;
 }
 
@@ -100,8 +99,8 @@ body {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .our-work {
@@ -113,6 +112,7 @@ body {
 }
 
 .master__social-list {
+  display: flex;
   justify-content: center;
 }
 
@@ -359,6 +359,11 @@ body {
   transition-property: transform;
 }
 
+.headr {
+  width: 320px;
+  border: 1px solid #ececec;
+}
+
 .header__menu-logo {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -415,6 +420,7 @@ body {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .advantages__item .advantages__item {
@@ -423,13 +429,15 @@ body {
 
 .advantages__item-text {
   color: var(--textarea-color);
+  font-weight: 500;
+  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  font-weight: 400;
 }
 
 .advantages__link {
   height: 120px;
+  display: flex;
   justify-content: center;
   align-items: center;
   background: #f5f4fa;
@@ -446,17 +454,19 @@ body {
 .hero__item {
   background: var(--secondary-gray-color);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Header_img.jpg);
-  width: 480px;
-  align-items: center;
-  justify-content: center;
+  padding: 118px 20px;
+  width: 320px;
   height: 400px;
-  background-repeat: no-repeat;
+}
+
+.primary {
+  margin-top: 30px;
 }
 
 .hero__title {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.6;
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--text-white-color);
@@ -520,6 +530,7 @@ body {
   font-size: 16px;
   line-height: 1.12;
   letter-spacing: 0.03em;
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -528,12 +539,14 @@ body {
   font-weight: 400;
   line-height: 1.12;
   text-align: center;
+  margin: 10px;
+  margin-bottom: 16px;
   /*margin-bottom: 30px;*/
 }
 
 .images {
-  height: 260px;
-  width: 270px;
+  height: 320px;
+  width: auto;
 }
 
 .team__all {
@@ -558,11 +571,14 @@ body {
 .client__item {
   width: 170px;
   height: 92px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .client__link {
   width: 100%;
   height: 100%;
+  flex-basis: calc((100% / 2 -30px));
   justify-content: center;
   align-items: center;
   color: #afb1b8;

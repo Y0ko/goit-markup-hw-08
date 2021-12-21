@@ -5,6 +5,7 @@
 .advantages__item {
   color: var(--title-text-color);
   @include font(700, 14px, 1.1, 0.03em);
+  text-align: center;
   // font-weight: 700;
   // font-size: 14px;
   // line-height: 1.1;
@@ -17,14 +18,16 @@
 .advantages__item-text {
   // max-width: 270px;
   color: var(--textarea-color);
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  font-weight: 400;
+  @include font(500, 14px, 1.7, 0.03em);
+  //  font-weight: 500;
+  // font-size: 14px;
+  // line-height: 1.7;
+  // letter-spacing: 0.03em;
 }
 .advantages__link {
   // width: 270px;
   height: 120px;
-  // display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   background: #f5f4fa;
