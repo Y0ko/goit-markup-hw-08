@@ -15,9 +15,7 @@ ul {
   font-size: inherit;
 }
 img {
-  // display: block;
-  // width: 100vw;
-  height: auto;
-
+  display: block;
+  max-width: 100%;
   height: auto;
 }

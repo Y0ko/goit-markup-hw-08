@@ -13,6 +13,10 @@
 .team__item {
   // display: flex;
   justify-content: space-evenly;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 .caption__team {
   @include font(500, 16px, 1.12, 0.03em);
@@ -34,7 +38,7 @@
 }
 
 .images {
-  height: 320px;
+  // height: 320px;
   width: auto;
 }
 .team__all {
@@ -45,4 +49,8 @@
   // & + & {
   //   margin-left: 30px;
   // }
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(100% / 2 - 30px);
+    margin-left: 30px;
+  }
 }

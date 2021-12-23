@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="WebStudio, Web, Studio" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link
       rel="stylesheet"
@@ -22,9 +22,9 @@
     <link rel="stylesheet" href="./css/main.min.css" />
     <!--служебна інфа -->
   </head>
-  <body  >
+  <body>
     <!--НАВІГАЦІЯ-->
-    <header class="headr">
+    <header class="headr ">
       <div class="container header__container">
         <nav class="header__nav">
           <a class="logo header__menu-logo" href="./index.html">
@@ -42,12 +42,12 @@
             </li>
           </ul>
         </nav>
-           <!--КОНТАКТИ-->
-         <ul class="header__contacts">
+    <!--КОНТАКТИ-->
+    <ul class="header__contacts">
            <div class="header-connect">
-          <li class="header__contacts__item">
-            <a class="header__contacts__link link" href="mailto:info@devstudio.com">
-              <svg class="header__contacts__link-icon link" width="16" height="12">
+          <li class="header__contacts-item">
+            <a class="header__contacts-link link" href="mailto:info@devstudio.com">
+              <svg class="header__contacts-link-icon link" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
@@ -67,13 +67,13 @@
     <main>
       <!--HERO-->
       <section class="hero">
-        <div class="hero__item ">
+        <div class="hero__item">
           <h1 class="hero__title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
           <button type="button" class="button primary" data-modal-open>Заказать услугу</button>
         </div>
-      </section> 
+      </section>
       <!--НАШИ ПРЕИМУЩЕСТВА-->
-       <section class="section">
+      <section class="section">
         <div class="container advantages">
           <h2 class="visually-hidden">Наши преимущества</h2>
           <ul class="advantages__items">
@@ -125,7 +125,7 @@
         </div>
       </section>
       <!--ЧЕМ ЗАНИМАЕМСЯ-->
-      <!-- <section class="section section__caption">
+      <section class="section section__caption">
         <div class="container caption__our-work">
           <h2 class="caption">Чем мы занимаемся</h2>
           <ul class="caption__item">
@@ -156,7 +156,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!--КОМАНДА-->
       <section class="section team__section">
         <div class="container">
@@ -435,8 +435,7 @@
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
-      <!--is-hidden-->
-      <div class="modal">
+        <div class="modal">
         <button type="button" class="modal__close" data-modal-close>
           <svg class="modal__close-icon" width="11" height="11">
             <use href="./images/icons.svg#icon-close"></use>
@@ -513,7 +512,6 @@
         </form>
       </div>
     </div>
-
-    <script src="./js/modal.js"></script>
+        <script src="./js/modal.js"></script>
   </body>
 </html>

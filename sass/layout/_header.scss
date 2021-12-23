@@ -14,15 +14,19 @@
   }
 }
 .headr {
-  width: 320px;
+  width: 100%;
+  // margin: 0;
+  // justify-content: space-between;
+  // align-items: center;
   border: 1px solid #ececec;
 }
 
-// .header__container {
-//   // display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-// }
+.header__container {
+  // display: flex;
+
+  // justify-content: space-between;
+  // align-items: center;
+}
 
 .header__navigation {
   // display: flex;
@@ -64,10 +68,10 @@
 //   // display: flex;
 //   margin-left: auto;
 // }
-// .header__contacts__item:not(:last-child) {
+// .header__contacts-item:not(:last-child) {
 //   margin-right: 50px;
 // }
-.header__contacts__link {
+.header__contacts-link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -86,6 +90,6 @@
   }
 }
 
-// .header__contacts__link-icon {
+// .header__contacts-link-icon {
 //   margin-right: 10px;
 // }

@@ -8,9 +8,11 @@
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/Header_img.jpg);
   padding: 118px 20px;
-  width: 320px;
+  background-repeat: no-repeat;
   // align-items: center;
   // justify-content: center;
+
+  width: 320px;
   height: 400px;
 }
 .primary {
