@@ -551,6 +551,8 @@ body {
 
 .team__section {
   background-color: #f5f4fa;
+  align-items: center;
+  justify-content: center;
 }
 
 .team__caption {

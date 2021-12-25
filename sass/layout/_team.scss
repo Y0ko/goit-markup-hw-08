@@ -1,5 +1,7 @@
 .team__section {
   background-color: #f5f4fa;
+  align-items: center;
+  justify-content: center;
 }
 .team__caption {
   text-align: center;
@@ -11,7 +13,8 @@
   // margin-bottom: 50px;
 }
 .team__item {
-  // display: flex;
+  //display: flex;
+
   justify-content: space-evenly;
   @media screen and (min-width: 768px) {
     display: flex;
