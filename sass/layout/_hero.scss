@@ -15,15 +15,15 @@
   // align-items: center;
   // justify-content: center;
 
-  width: 320px;
-  height: 400px;
+  width: 100%;
+  //  height: auto;
 }
 .primary {
   margin-top: 30px;
 }
 .hero__title {
-  // max-width: 320px;
-  // margin: 0 auto;
+  width: 360px;
+  margin: 0 auto;
   // margin-bottom: 30px;
 
   @include font(900, 26px, 1.6, 0.06em);
@@ -33,4 +33,9 @@
   // letter-spacing: 0.06em;
   text-align: center;
   color: var(--text-white-color);
+  // @media screen and (min-width: 1200px) {
+  //   // width: 696px;
+  //   // height: 120px;
+  //   // margin-bottom: 30px;
+  // }
 }
