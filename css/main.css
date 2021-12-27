@@ -532,6 +532,12 @@ body {
   display: block;
 }
 
+@media screen and (min-width: 768px) {
+  .open-menu-btn {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .mob-menu {
     position: fixed;
@@ -555,6 +561,13 @@ body {
   display: block;
   margin-left: 400px;
   margin-bottom: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-menu-btn:hover, .close-menu-btn:focus {
+  fill: #2196f3;
 }
 
 .mob-menu__nav-item:not(:last-child) {
@@ -593,7 +606,7 @@ body {
   transform: rotate(90deg);
 }
 
-.mob-menu__social-link:not(:first-chield) {
+.mob-menu__social-link:not(:first-child) {
   border: 1px solid rgba(33, 33, 33, 0.2);
   transform: rotate(90deg);
 }

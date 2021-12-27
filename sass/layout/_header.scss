@@ -159,7 +159,11 @@
 .open-menu-btn {
   margin-left: auto;
   display: block;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
+
 .mob-menu {
   @media screen and (max-width: 767px) {
     position: fixed;
@@ -180,11 +184,20 @@
     }
   }
 }
+
 .close-menu-btn {
   display: block;
   margin-left: 400px;
   margin-bottom: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  &:hover,
+  &:focus {
+    fill: #2196f3;
+  }
 }
+
 .mob-menu__nav-item {
   &:not(:last-child) {
     margin-bottom: 35px;
@@ -221,10 +234,11 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   transform: rotate(90deg);
 }
-.mob-menu__social-link:not(:first-chield) {
+.mob-menu__social-link:not(:first-child) {
   border: 1px solid rgba(33, 33, 33, 0.2);
   transform: rotate(90deg);
 }
+
 .mob-menu__social-list {
   margin-top: 64px;
   margin-bottom: 48px;
