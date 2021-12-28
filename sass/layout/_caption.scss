@@ -12,18 +12,20 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  // & li:not(:last-child) {
-  //   margin-right: 30px;
-  // }
+  @media screen and (min-width: 1200px) {
+    & li:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
   & > li {
     position: relative;
   }
 }
 
 .caption__image {
-  // display: flex;
-  // width: 370px;
-  // height: 294px;
+  display: flex;
+  width: 370px;
+  height: 294px;
 }
 
 .caption__title-text {
