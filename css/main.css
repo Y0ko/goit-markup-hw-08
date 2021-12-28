@@ -538,7 +538,7 @@ body {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .mob-menu {
     position: fixed;
     left: 0;
@@ -569,7 +569,6 @@ body {
   display: block;
   margin-left: auto;
   margin-bottom: 10px;
-  margin-right: 21px;
 }
 
 .close-menu-btn:hover, .close-menu-btn:focus {
