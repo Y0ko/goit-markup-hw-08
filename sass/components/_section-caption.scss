@@ -1,6 +1,6 @@
 .section__caption {
   padding-top: 0px;
-  @media screen and (min-width: 0px) {
+  @media screen and (max-width: 1199px) {
     display: none;
   }
 }

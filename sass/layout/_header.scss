@@ -173,8 +173,8 @@
     width: 100vw;
     height: 100vh;
     // z-index: 9999999;
-    padding-top: 21px;
-    padding-bottom: 48px;
+    // padding-top: 21px;
+    // padding-bottom: 48px;
     .container {
       height: 100%;
       display: flex;
@@ -183,6 +183,8 @@
       padding-left: 40px;
       // margin-left: 40px;
       padding-right: 40px;
+      padding-top: 21px;
+      padding-bottom: 48px;
     }
   }
   @media screen and (min-width: 768px) {

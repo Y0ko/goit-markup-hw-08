@@ -131,7 +131,7 @@ body {
   padding-top: 0px;
 }
 
-@media screen and (min-width: 0px) {
+@media screen and (max-width: 1199px) {
   .section__caption {
     display: none;
   }
@@ -221,7 +221,7 @@ body {
 
 .modal__close:hover, .modal__close:focus {
   fill: #2196f3;
-  border: 1px solidrgbaa(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .is-hidden {
@@ -546,8 +546,6 @@ body {
     top: 0;
     width: 100vw;
     height: 100vh;
-    padding-top: 21px;
-    padding-bottom: 48px;
   }
   .mob-menu .container {
     height: 100%;
@@ -556,6 +554,8 @@ body {
     justify-content: space-between;
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 21px;
+    padding-bottom: 48px;
   }
 }
 
@@ -724,6 +724,7 @@ body {
 }
 
 .caption__item {
+  display: flex;
   justify-content: space-between;
   position: relative;
 }
