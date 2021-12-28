@@ -167,10 +167,10 @@
 .mob-menu {
   @media screen and (max-width: 767px) {
     position: fixed;
-    //left: 0;
+    left: 0;
     background-color: #ffffff;
     top: 0;
-    max-width: 767px;
+    width: 100vw;
     height: 100vh;
     // z-index: 9999999;
     padding-top: 48px;
@@ -183,11 +183,14 @@
       margin-left: 40px;
     }
   }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 
 .close-menu-btn {
   display: block;
-  margin-left: 400px;
+  margin-left: auto;
   margin-bottom: 30px;
   text-align: center;
   align-items: center;

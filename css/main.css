@@ -541,9 +541,10 @@ body {
 @media screen and (max-width: 767px) {
   .mob-menu {
     position: fixed;
+    left: 0;
     background-color: #ffffff;
     top: 0;
-    max-width: 767px;
+    width: 100vw;
     height: 100vh;
     padding-top: 48px;
     padding-bottom: 48px;
@@ -557,9 +558,15 @@ body {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    display: none;
+  }
+}
+
 .close-menu-btn {
   display: block;
-  margin-left: 400px;
+  margin-left: auto;
   margin-bottom: 30px;
   text-align: center;
   align-items: center;
