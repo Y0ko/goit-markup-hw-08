@@ -162,6 +162,7 @@
   @media screen and (min-width: 768px) {
     display: none;
   }
+  //transform: translateX(100%);
 }
 
 .mob-menu {
@@ -187,6 +188,7 @@
     padding-bottom: 48px;
     //}
   }
+
   @media screen and (min-width: 768px) {
     display: none;
   }
@@ -204,6 +206,7 @@
   &:focus {
     fill: #2196f3;
   }
+  //transform: translateX(0%);
 }
 
 .mob-menu__nav-item {
