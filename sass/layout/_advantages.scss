@@ -2,11 +2,11 @@
   // display: flex;
   display: block;
   justify-content: space-between;
-  margin-left: -30px;
+  //margin-left: -30px;
   // @media screen and (min-width: 480px) {
   //   display: block;
   //   justify-content: space-between;
-  //   margin-left: -30px;
+
   // }
 
   @media screen and (min-width: 768px) {
@@ -23,6 +23,7 @@
   // font-size: 14px;
   // line-height: 1.7;
   // letter-spacing: 0.03em;
+  text-align: left;
 }
 .advantages__link {
   // width: 270px;
@@ -39,8 +40,9 @@
   color: var(--title-text-color);
   @include font(700, 14px, 1.1, 0.03em);
   flex-basis: calc(100% / 2 - 30px);
-  margin-left: 30px;
+  //margin-left: 30px;
   text-align: center;
+  padding-bottom: 10px;
   //text-align: center;
   // font-weight: 700;
   // font-size: 14px;
