@@ -1,11 +1,38 @@
 .filter {
-  // display: flex;
+  margin-bottom: 40px;
+  display: flex;
   justify-content: center;
-  // margin-bottom: 50px;
+
+  @media screen and (min-width: 480px) {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    // .section {
+    //   // margin-left: 15px;
+    //   // margin-right: 15px;
+    //   padding-left: 15px;
+    //   padding-right: 15px;
+    // }
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
 }
-// .filter-item:not(:last-child) {
-//   margin-right: 8px;
-// }
+
+.filter-item {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+  @media screen and (min-width: 480px) {
+    margin-top: 15px;
+  }
+  @media screen and (min-width: 768px) {
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+}
 .filter-btn {
   font-family: Roboto, sans-serif;
   @include font(700, 16px, 1.62, 0.03em);
