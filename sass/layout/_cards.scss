@@ -30,10 +30,10 @@
   height: 100%;
   transform: translateY(100%);
   transition-duration: 500ms;
-  // .card:hover & {
-  //   transform: translateY(0);
-  //   transition-duration: 500ms;
-  // }
+  .card:hover & {
+    transform: translateY(0);
+    transition-duration: 500ms;
+  }
 }
 
 .card {
