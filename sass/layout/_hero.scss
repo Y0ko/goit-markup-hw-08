@@ -60,9 +60,10 @@
   }
   @media screen and (min-width: 400px) and (max-width: 1199px) {
     @include font(900, 26px, 1.6, 0.06em);
-    width: 360px;
+    // width: 360px;
   }
   @media screen and (min-width: 1200px) {
     @include font(900, 44px, 1.62, 0.06em);
+    width: 696px;
   }
 }
