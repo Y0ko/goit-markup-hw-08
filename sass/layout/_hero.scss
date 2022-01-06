@@ -7,7 +7,7 @@
   background: var(--secondary-gray-color);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/mobile/Headermob.jpg);
-  padding: 118px 20px;
+  padding: 200px 0px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -27,6 +27,7 @@
     }
   }
   @media screen and (min-width: 1200px) {
+    width: 1600px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/desktop/headerdesktop.jpg);
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {

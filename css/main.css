@@ -574,8 +574,8 @@ body {
 
 @media screen and (min-width: 1200px) {
   .header__contacts-link {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
@@ -782,7 +782,7 @@ body {
 .hero__item {
   background: var(--secondary-gray-color);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile/Headermob.jpg);
-  padding: 118px 20px;
+  padding: 200px 0px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -810,6 +810,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .hero__item {
+    width: 1600px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/desktop/headerdesktop.jpg);
   }
 }
