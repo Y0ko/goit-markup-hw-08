@@ -446,7 +446,6 @@ body {
 .header__nav {
   display: flex;
   align-items: center;
-  height: 60px;
 }
 
 .header__nav a {
